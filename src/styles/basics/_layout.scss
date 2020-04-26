@@ -1,0 +1,28 @@
+.main-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(0.6rem, auto)
+        1fr
+        minmax(0.6rem, auto);
+    grid-template-rows: 48px 1fr auto;
+
+    min-height: 100vh;
+
+    > * {
+        grid-column: 2;
+    }
+}
+
+.container {
+    margin: 0 auto;
+
+}
+
+@media (max-width: 500px) {
+    .main-layout {
+        grid-template-columns:
+            minmax(0.2rem, auto)
+            1fr
+            minmax(0.2rem, auto);
+    }
+}

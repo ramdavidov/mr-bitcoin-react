@@ -1,0 +1,32 @@
+.main-navbar {
+    grid-column: 1 / -1;
+    background-color: $violet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.6rem;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+
+    .logo-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        a {
+            display: block;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            span {
+                font-size: 24px;
+                font-weight: 600;
+                color: darken($purple, 40);
+            }
+
+            img {
+                height: 30px;
+                margin-right: 6px;
+            }
+        }
+    }
+}

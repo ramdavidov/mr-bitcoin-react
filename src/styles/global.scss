@@ -1,0 +1,24 @@
+  // SETUP
+  @import './setup/typography';
+  @import './setup/variables';
+
+  // BASICS
+  @import './basics/base';
+  @import './basics/layout';
+
+  // PAGES
+  @import '../pages/SignupPage/SignupPage';
+  @import '../pages/HomePage/HomePage';
+  @import '../pages/ContactPage/ContactPage';
+  @import '../pages/ContactDetails/ContactDetails';
+  @import '../pages/ContactEdit/ContactEdit';
+
+  // COMPONENTS
+  @import '../cmps/MainNavbar/MainNavbar';
+  @import '../cmps/BurgerMenu/BurgerMenu';
+  @import '../cmps/MoveList/MoveList';
+  @import '../cmps/ContactList/ContactList';
+  @import '../cmps/ContactFilter/ContactFilter';
+  @import '../cmps/ContactPreview/ContactPreview';
+  @import '../cmps/TransferFund/TransferFund';
+  

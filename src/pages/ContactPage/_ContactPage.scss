@@ -1,0 +1,22 @@
+.contact-page {
+    .contact-add {
+        border-radius: 50%;
+        background-color: $light;
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        transition: all .3s;
+
+        img {
+            height: 100px;
+        }
+    }
+
+    .contact-add:hover {
+        background-color: lighten($violet, 2);
+    }
+}

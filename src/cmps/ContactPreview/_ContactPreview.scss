@@ -1,0 +1,30 @@
+.contact-preview {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 6px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 4px 6px;
+    background-color: $violet;
+    border: solid 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+    transition: all 0.3s;
+
+    img {
+        grid-row: 1 / -1;
+        width: 100px;
+        border-radius: 50%;
+        background-color: lighten($violet, 4);
+        border: solid $purple 1px;
+        transition: all 0.3s;
+    }
+}
+
+.contact-preview:hover {
+    background-color: darken($violet, 4);
+
+    img {
+        background-color: lighten($violet, 2);
+    }
+}
